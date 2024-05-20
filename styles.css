@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.sub-header {
+  background-color: #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  height: 350px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
+
+.results-header {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 34px;
+}
+
+.encuestas-header {
+  font-size: 54px;
+}
+
+#charts-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.chart-container {
+  display: flex;
+  justify-content: center;
+}
+
+canvas {
+  margin: 10px;
+}
+
+.doughnut-container {
+  display: flex;
+  justify-content: center;
+}
+
+.doughnut-chart {
+  width: 550px !important;
+  height: 550px !important;
+}
+
+.encuestas-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.encuesta {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+  .encuestas-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .encuestas-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+p {
+  text-align: left;
+  font-size: 22px;
+  color: #000000;
+  margin: 20px auto;
+  max-width: 800px;
+  line-height: 1.6;
+}

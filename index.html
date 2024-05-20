@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuestas</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header class="header">
+        <h1>Lenguaje de Marcas</h1>
+    </header>
+    <div class="sub-header">
+        <h2 class="encuestas-header"><u>Gráficas de las encuentas</u></h2>
+    </div>
+    <div id="charts-container">
+        <div class="chart-container">
+            <canvas id="chartPregunta1" width="300" height="300"></canvas>
+            <canvas id="chartPregunta2" width="300" height="300"></canvas>
+        </div>
+        <canvas id="chartPregunta3" width="600" height="300"></canvas>
+        <div class="doughnut-container">
+        <canvas id="chartGenero" class="doughnut-chart"></canvas>
+        <canvas id="chartGrado" class="doughnut-chart"></canvas>
+    </div>
+    <h2 class="results-header"><u>Resultados de las Encuestas</u></h2>
+    <p>
+        <strong>Localidad del centro:</strong> HUMANES / GETAFE <br>
+        <strong>Grado que estudia el alumno:</strong> SMR / ASIR / DAM / DAW <br>
+        <strong>Pregunta 1:</strong> ¿Con qué frecuencia revisas tus redes sociales?<br>
+        <strong>Pregunta 2:</strong> ¿Con que frecuencia compartes contenido en tus redes sociales?<br>
+        <strong>Pregunta 3:</strong> ¿Cuántas veces al día publicas en tus redes sociales?<br>
+        <strong>Pregunta 4:</strong> ¿Te sientes dependiente de tus redes sociales para mantenerte informado/a?<br>
+        <strong>Pregunta 5:</strong> ¿Experimentas ansiedad si pasas un día sin revisar tus redes sociales?
+    </p>
+    <div id="encuestas-container" class="encuestas-grid"></div>
+    <footer class="footer">
+        
+    </footer>
+    <script src="h23t.js"></script>
+</body>
+</html>
