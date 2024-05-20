@@ -1,1 +1,2 @@
 # h2_3t_adrielmedina
+Para este 2dp hito de lenguaje esto es lo que he hecho, El código HTML estructura una página web que presenta los resultados de encuestas, mostrando gráficas y datos organizados en una cuadrícula. El CSS define el estilo visual de la página, incluyendo tipografía, colores, disposición de elementos y adaptación a diferentes tamaños de pantalla. El JavaScript maneja la lógica para mostrar los datos de las encuestas y generar las gráficas dinámicamente en la página.
